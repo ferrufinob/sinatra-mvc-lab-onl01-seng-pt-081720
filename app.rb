@@ -9,6 +9,6 @@ class App < Sinatra::Base
 
     post '/piglatinize' do
         # @analyzed_text = Piglatinizer.new(params[:user_phrase])
-        erb :results
+        erb :piglatinize
     end
 end
